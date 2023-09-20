@@ -25,7 +25,7 @@ int is_env(char *cmd, char **envp)
 				len = 0;
 				while ((*myenv)[len] != '\0')
 					len++;
-				write(1, *myenv, len);/*pimotmjqw4epbg yt9iw54*/
+				write(1, *myenv, len);
 				write(1, "\n", 1);
 			}
 			return (1);
